@@ -8,7 +8,7 @@ import System.IO
 
 main = do
   -- Load the command-line arguments
-  args <- getArgs
+  args <- getArgs 
 
   -- If we don't have the right amount of args, give an error and abort
   when (length args /= 2) $ do
